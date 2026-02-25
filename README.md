@@ -1,6 +1,8 @@
 # Customer Segmentation Using PCA and K-Means
 
 ## 📊 Project Overview
+## Big Data Dimention Reduction and Clustering
+![Dimention Reduction](project2_1.png)
 
 This project analyzes customer credit card transaction data to identify distinct customer segments based on spending and payment behavior.
 
@@ -40,6 +42,8 @@ The dataset was cleaned by removing missing values and zero-value records before
  - First four components explained ~93% of total variance
   - Reduced dataset complexity while preserving key information
   - Generated Scree Plot and cumulative variance summary
+## PCA Scree Plot
+![Scree Plot](project2_3.png)
 
 3️⃣ Clustering (K-Means)
   - Used PCA-transformed dataset
@@ -47,6 +51,8 @@ The dataset was cleaned by removing missing values and zero-value records before
     - Elbow Method
     - Silhouette Score
  -  Selected k = 3 for better business interpretability
+## K-Means Clustering
+![KMeans](project2_4.png)
 
 4️⃣ Cluster Interpretation
 Generated:
@@ -54,7 +60,8 @@ Generated:
   - Cluster summary tables
  -  Heatmap of average feature values
   - Final pair plot visualization
-
+## Cluster Heatmap
+![Heatmap](project2_7.png)
 ## 📈 Key Results
 
 Three distinct customer segments were identified:
@@ -94,7 +101,10 @@ PCA successfully reduced complexity while preserving meaningful behavioral patte
 - K-Means Clustering on PCA Space
 - Elbow & Silhouette Analysis
 - Cluster Heatmap
-
+## Pairplot
+![Pairplot](project2_2.png)
+## Elbow & Silhouette Method
+![Elbow](project2_5.png)
 ## 🚀 Key Takeaways
 - PCA can significantly reduce dataset dimensionality while preserving over 90% of variance.
 - Combining PCA with K-Means improves clustering clarity.
@@ -102,20 +112,7 @@ PCA successfully reduced complexity while preserving meaningful behavioral patte
 - Statistical optimality (k=2) may differ from business practicality (k=3).
 
 
-## Big Data Dimention Reduction and Clustering
-![Dimention Reduction](project2_1.png)
 
-## Pairplot
-![Pairplot](project2_2.png)
 
-## PCA Scree Plot
-![Scree Plot](project2_3.png)
 
-## K-Means Clustering
-![KMeans](project2_4.png)
 
-## Elbow & Silhouette Method
-![Elbow](project2_5.png)
-
-## Cluster Heatmap
-![Heatmap](project2_7.png)
