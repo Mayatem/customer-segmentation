@@ -100,3 +100,22 @@ PCA successfully reduced complexity while preserving meaningful behavioral patte
 - Combining PCA with K-Means improves clustering clarity.
 - Cluster interpretability is critical for business applications.
 - Statistical optimality (k=2) may differ from business practicality (k=3).
+
+
+## Big Data Dimention Reduction and Clustering
+![Dimention Reduction](project2_1.png)
+
+## Pairplot
+![Pairplot](project2_2.png)
+
+## PCA Scree Plot
+![Scree Plot](project2_3.png)
+
+## K-Means Clustering
+![KMeans](project2_4.png)
+
+## Elbow & Silhouette Method
+![Elbow](project2_5.png)
+
+## Cluster Heatmap
+![Heatmap](project2_7.png)
