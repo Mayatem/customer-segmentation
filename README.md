@@ -58,6 +58,7 @@ Generated:
 ## 📈 Key Results
 
 Three distinct customer segments were identified:
+
 🔵 Cluster 0 – Moderate Activity Customers
  -  Moderate balances
  -  Controlled spending behavior
@@ -94,7 +95,7 @@ PCA successfully reduced complexity while preserving meaningful behavioral patte
 - Elbow & Silhouette Analysis
 - Cluster Heatmap
 
-🚀 Key Takeaways
+## 🚀 Key Takeaways
 - PCA can significantly reduce dataset dimensionality while preserving over 90% of variance.
 - Combining PCA with K-Means improves clustering clarity.
 - Cluster interpretability is critical for business applications.
